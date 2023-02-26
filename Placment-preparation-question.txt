@@ -1,0 +1,155 @@
+Date: 20-02-2023
+Day 1. Interview Preparation.
+
+Collections
+-------------
+1)What is the difference between Array and Collection classes?
+2)Name the core Collection  interfaces & their implementing Collection classes
+3)What is the root interface in collection hierarchy?List its methods
+4)Explain difference between 
+5)ArrayList & Vector
+6)ArrayList & LinkedList
+7)HashSet & TreeSet
+8)HashSet & HashMap
+9)Hashtable & HashMap
+10)HashMap & TreeMap
+11)Iterator &ListIterator
+12)Iterator & Enumeration
+13)Set & List
+14)Set & Map
+15)Queue and Stack 
+16)Queue & List
+17)Collection and Collections
+18)Comparable and Comparator
+19)What is the difference between Array and ArrayList?
+20)Why we override equals() & hashcode() method
+21)How to synchronize List, Set and Map elements
+22)What is the advantage of generic collection
+23)How to convert ArrayList to Array and Array to ArrayList?
+24)How to reverse ArrayList?
+25)How to sort ArrayList?
+26)Which collection classes are synchronized or thread-safe 
+27)What is the difference between peek(),poll() and remove() method of the Queue interface ?
+28)Write java code showing insertion,deletion and retrieval of HashMap object ?
+29)What is the difference between HashMap and ConcurrentHashMap ?
+30) Why Map interface does not extend the Collection interface in Java Collections Framework ?
+31)Write the code for iterating the list in different ways in java ? 
+32)Suppose there is an Employee class. We add Employee class objects to the ArrayList. 
+33)Mention the steps need to be taken , if I want to sort the objects in ArrayList using the 
+employeeId attribute present  in Employee class.
+34)How can an ArrayList be synchronized without using Vector?
+35)What is NavigableMap in Java? What is a benefit over Map?
+36)What is Java Priority Queue ?
+
+
+
+
+
+
+
+
+
+Date: 21-02-2023
+Day 2. Interview questions.
+------------------------------
+1.	Explain your project.
+2.	Your role in project.
+3.	Oops in java.
+4.	Can we override main method?
+5.	Can we overload main method? 
+6.	String literals and immutability of string.
+7.	equals and == 
+8.	Student class scenario 
+9.	Collection and Collections
+10.	Arraylist and linkedlist
+11.	Find temperature close to zero given an array containing negative postive temperature
+12.	Springboot and spring
+13.	Annotations used in project
+14.	Maven lifecycle
+15.	Arraylist vs linkedlist
+16.	Singlton class program
+17.	Puzzle 3litr,5litre jar...measure 4 litre
+18.	Joins
+19.	Why mech to IT ?
+20.	Hooks means?
+21.	Callback function ? ...how it works ?
+22.	Want to delete duplicate element from arraylist ...which interface we should use?
+23.	Insert elements in arraylist...find min element...program
+24.	How to add 4 dept...each dept have 3profiles....how to add this hirarchi in database 
+25.	Explain your Project 
+26.	Explain Database of your Project. 
+27.	Discussed Password Encryption and Forgot Password Functionality in my Project.
+28.	Explain the problem how i approached the problem.
+29.	Some Practical Questions on HashMap,TreeSet
+30.	Discussed about the Booking of Grounds/Halls functionality in your project.
+31.	Annotations Used in the Project.
+32.	Hashmap function
+33.	Arraylist program
+34.	Inner join , left join
+35.	What is Mongodb
+36.	Some javascript based question
+37.	What 'Inspect' will do on browser window
+38.	Java 8 and 11 features
+39.	Exception
+40.	Difference bet delete and truncate
+
+
+
+
+
+
+
+
+
+
+
+Date: 22-02-2023
+Day 3. Interview questions.
+--------------------------------
+
+1.Tell me about yourself with brief introduction of project.
+2. Design Patterns
+3. Inheritance vs composition
+4. Which is used in design patterns, (inheritance or composition).
+5. Scenario-based questions on class and interface 
+6. State management in a project (I told local storage )
+7. Why you have not used redux?
+8. What is redux?
+9. Do you know about flux pattern.
+10. Your role in the project ?
+11. How to communicate between two react components?
+12. Which library you have used to communicate frontend to backend ?
+13. What methods are there in axios library ?
+14. What does axios methods return ?
+15. What is promise and callback ?
+16. How user will know that an error occurred in the backend ?
+17. I have deployed my project on AWS so he asked some question related to AWS ……..where did you deployed your APIs , how Elastic Beanstalk works internally (I told it uses EC2 instance)
+18. How did you handle millions of request on your website ?
+19. What is Horizontal and vertical scaling?
+20. How did you debug react?
+
+
+
+
+
+
+
+
+
+Date: 24-02-2023
+Day 4. Interview questions.
+--------------------------------
+Java OOPs 
+1. what is object oriented approach.
+2. what is difference between  Procedural/Structured approach.
+and Object oriented approach.
+3. what is difference between object based language ,object oriented language.
+Purely object oriented language.
+4. who invented object oriented approach.
+5. what is Object Model?
+6. Explain Major & Minor pillars of OOPs.
+7. what is difference between Data Abstraction & Procedural abstraction.
+8. what is difference between Cohesion & Coupling.
+9. what is difference between Containment & Inheritance.
+10. what is an object ?state its characteristics11.)what is difference between tangible & intangible object.
+11. what is difference between Aggregation & Composition.

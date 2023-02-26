@@ -18,7 +18,6 @@ public class P07{
 		for(int i: set){
 			System.out.print(i+" ");
 		}
-		
 	}
 }
 

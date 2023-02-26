@@ -1,7 +1,7 @@
 //Write a Java Program to Move all Zero to End of the Array. 
 
 
-
+// Write a Java Program to Move all Zeros to last of the Array. 
 public class P10{
 	public static void main(String[] args){
 		int[] arr={1,4,2,6,0,7,0,4,6,0,1,23,0,87,-12,06,0};

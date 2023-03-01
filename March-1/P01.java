@@ -47,12 +47,73 @@ public class P01{
 		
 	}
 	
+	static int[] median3(int[] arr, int k){
+		int n=arr.length-k+1;
+		int[] ans=new int[n];
+		
+		int count=k/2;
+		int c=0;
+		for(int i=count;i<arr.length-count;i++){
+			
+			ans[c++]=arr[i];
+			
+			
+		}
+		
+		return ans;
+		
+	}
+	
+	static int med(int[] arr, int start, int end){
+		int mid=Math.round(start+(end-start)/2);
+		
+		return arr[mid];
+		
+	}
+	
+	
+	
+	static int[] ans(int[] arr, int k){
+		int n=arr.length-k+1;
+		int[] ans=new int[n];
+		int c=0;
+		for(int i=0;i<=arr.length-k;i++){
+			ans[c++]=med(arr,i,i+k);			
+		}
+		return ans;
+		
+	}
 	
 	public static void main(String[] args){
-		int[] arr={1, 2, 3, 4, 5, 6, 7, 8, 8};
-		System.out.println(Math.round(6.7));
+		int[] arr={10,20,30,40,50,70,80,90};
+		
+		int[] ans=ans(arr,2);
+		
+		for(int i: ans){
+			System.out.print(i+" ");
+		}
+		System.out.println();
+		int[] ans1=ans(arr,3);
+		
+		for(int i: ans1){
+			System.out.print(i+" ");
+		}
+		
+		
+		System.out.println();
+		int[] ans2=ans(arr,4);
+		
+		for(int i: ans2){
+			System.out.print(i+" ");
+		}
+		
+		
+		
+		/*System.out.println(Math.round(6.7));
 		int[] ans=median(arr,3);
 		int[] ans1=median2(arr,3);
+		int[] ans2=median3(arr,3);
+		int[] ans3=median3(arr,4);
 		for(int i:ans){
 			System.out.print(i+ " ");
 		}
@@ -62,6 +123,22 @@ public class P01{
 		for(int i:ans){
 			System.out.print(i+ " ");
 		}
+		
+		
+		System.out.println();
+		System.out.println();
+		for(int i:ans2){
+			System.out.print(i+ " ");
+		}
+		
+		
+		System.out.println();
+		System.out.println();
+		for(int i:ans3){
+			System.out.print(i+ " ");
+		} */
+		
+		
 		
 	}
 }

@@ -1,3 +1,5 @@
+// Ecluidian algorithm to find GCD of two no
+
 import java.util.*;
 
 public class P03{
@@ -12,8 +14,7 @@ public class P03{
 		}else{
 			int diff=n2-n1;
 			return GCD(diff,n1);
-		}
-		
+		}	
 	}
 	
 	public static void main(String[] args){

@@ -5,11 +5,8 @@ import java.util.Scanner;
 public class P09{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
-		String s1=sc.nextLine();
+		String s1=sc.next();
 		
-		String[] arr=s1.split(" ");
-		
-		System.out.print(arr.length);
 		
 	}
 }

@@ -20,8 +20,6 @@ public class P01{
 			ans[count++]=sum;
 		}
 		return ans;
-		
-		
 	}
 	
 	static int[] median2(int[] arr, int k){
@@ -41,10 +39,7 @@ public class P01{
 			median+=arr[i];
 			ans[count++]=Math.round(median/k);
 		}
-		
 		return ans;
-		
-		
 	}
 	
 	static int[] median3(int[] arr, int k){
@@ -66,13 +61,8 @@ public class P01{
 	
 	static int med(int[] arr, int start, int end){
 		int mid=Math.round(start+(end-start)/2);
-		
 		return arr[mid];
-		
 	}
-	
-	
-	
 	static int[] ans(int[] arr, int k){
 		int n=arr.length-k+1;
 		int[] ans=new int[n];
@@ -80,8 +70,7 @@ public class P01{
 		for(int i=0;i<=arr.length-k;i++){
 			ans[c++]=med(arr,i,i+k);			
 		}
-		return ans;
-		
+		return ans;	
 	}
 	
 	public static void main(String[] args){
@@ -130,15 +119,11 @@ public class P01{
 		for(int i:ans2){
 			System.out.print(i+ " ");
 		}
-		
-		
+	
 		System.out.println();
 		System.out.println();
 		for(int i:ans3){
 			System.out.print(i+ " ");
 		} */
-		
-		
-		
 	}
 }
